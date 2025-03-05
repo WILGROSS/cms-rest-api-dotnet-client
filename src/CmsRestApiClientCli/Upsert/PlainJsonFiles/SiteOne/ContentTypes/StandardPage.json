@@ -1,0 +1,53 @@
+{
+  "displayName": "Standard Page",
+  "description": "A classic article page.",
+  "baseType": "page",
+  "sortOrder": 0,
+  "features": [
+    "localization",
+    "versioning",
+    "publishPeriod",
+    "routing"
+  ],
+  "usage": [
+    "instance"
+  ],
+  "mayContainTypes": [
+    "*"
+  ],
+  "properties": {
+    "PageTitle": {
+      "type": "string",
+      "format": "shortString",
+      "displayName": "Page title",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Meta",
+      "sortOrder": 10,
+      "indexingType": "searchable"
+    },
+    "Lead": {
+      "type": "string",
+      "format": "html",
+      "displayName": "Lead",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 20,
+      "indexingType": "searchable"
+    },
+    "Body": {
+      "type": "string",
+      "format": "html",
+      "displayName": "Body",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 30,
+      "indexingType": "searchable"
+    }
+  }
+}

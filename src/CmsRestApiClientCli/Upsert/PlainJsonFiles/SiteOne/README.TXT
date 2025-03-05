@@ -1,0 +1,1 @@
+The name of the *.json files will be used as "key" in the CMS instance.

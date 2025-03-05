@@ -1,0 +1,39 @@
+{
+  "displayName": "CTA links",
+  "description": "Links with nicer styling.",
+  "baseType": "component",
+  "sortOrder": 40,
+  "features": [
+    "localization",
+    "versioning",
+    "publishPeriod"
+  ],
+  "usage": [
+    "property",
+    "instance"
+  ],
+  "mayContainTypes": [
+  ],
+  "mediaFileExtensions": [
+  ],
+  "compositionBehaviors": [
+    "elementEnabled"
+  ],
+  "properties": {
+    "Links": {
+      "type": "array",
+      "format": "LinkCollection",
+      "displayName": "Links",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 10,
+      "minItems": 0,
+      "items": {
+        "type": "component",
+        "contentType": "link"
+      }
+    }
+  }
+}

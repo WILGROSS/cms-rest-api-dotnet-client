@@ -1,0 +1,35 @@
+{
+  "displayName": "Standard Experience",
+  "description": "An experience with META-data fields but without a predefined layout.",
+  "baseType": "experience",
+  "sortOrder": 0,
+  "features": [
+    "localization",
+    "versioning",
+    "publishPeriod",
+    "routing"
+  ],
+  "usage": [
+    "instance"
+  ],
+  "mayContainTypes": [
+    "*"
+  ],
+  "mediaFileExtensions": [
+  ],
+  "compositionBehaviors": [
+  ],
+  "properties": {
+    "PageTitle": {
+      "type": "string",
+      "format": "shortString",
+      "displayName": "Page title",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Meta",
+      "sortOrder": 10,
+      "indexingType": "searchable"
+    }
+  }
+}

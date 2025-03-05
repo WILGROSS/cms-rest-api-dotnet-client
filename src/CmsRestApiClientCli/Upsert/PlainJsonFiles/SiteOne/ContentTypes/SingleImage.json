@@ -1,0 +1,52 @@
+{
+  "displayName": "Single image",
+  "description": "Holds an image.",
+  "baseType": "component",
+  "source": "",
+  "sortOrder": 0,
+  "features": [
+    "localization",
+    "versioning",
+    "publishPeriod"
+  ],
+  "usage": [
+    "property",
+    "instance"
+  ],
+  "mayContainTypes": [
+  ],
+  "mediaFileExtensions": [
+  ],
+  "compositionBehaviors": [
+    "elementEnabled"
+  ],
+  "properties": {
+    "ImageReference": {
+      "type": "contentReference",
+      "displayName": "Image",
+      "description": "",
+      "localized": false,
+      "required": true,
+      "group": "Information",
+      "sortOrder": 10,
+      "editorSettings": {
+      },
+      "allowedTypes": [
+        "Image"
+      ],
+      "restrictedTypes": [
+      ]
+    },
+    "AlternativeText": {
+      "type": "string",
+      "format": "shortString",
+      "displayName": "Alternative text",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 20,
+      "indexingType": "searchable"
+    }
+  }
+}

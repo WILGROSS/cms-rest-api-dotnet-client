@@ -1,0 +1,5 @@
+.vs
+bin
+obj
+_ReSharper.Caches/
+appsettings.Development.json
