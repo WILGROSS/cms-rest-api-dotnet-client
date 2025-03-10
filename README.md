@@ -87,7 +87,7 @@ upsert <all|propertygroups|contenttypes|displaytemplates>
 delete <propertygroups|contenttypes|displaytemplates> <KEY>
 ```
 
-Be careful and look through all files in your FolderToProcess before running any upsert command, since these will iterate JSON files in the `PlainJsonFiles__FolderToProcess` structure, use the name of the file as `key` and send a PUT request with the JSON file content as the request body.
+Be careful and look through all files in your FolderToProcess before running any upsert command. These will iterate JSON files in the `PlainJsonFiles__FolderToProcess` structure, use the name of the file as `key` and send a PUT request with the JSON file content as the request body.
 
 The upserts is most likely what you want to run from a pipeline when deploying your head app. The `upsert contenttypes` and that part of `upsert all` will show a table as default, add `-j` to get syntax colored JSON output.
 
