@@ -65,11 +65,11 @@ cd bin\Debug\net9.0
 
 This should show a table of your types:
 
-![Table of your types](docs/images/contenttypes-table.jpg)
+![Table of your types](https://raw.githubusercontent.com/krompaco/cms-rest-api-dotnet-client/refs/heads/main/docs/images/contenttypes-table.png)
 
-If you add `-j` you will get a syntax colored JSON output shown:
+If you add `-j` you will get syntax colored JSON output:
 
-![JSON of your types](docs/images/contenttypes-json.jpg)
+![JSON of your types](https://raw.githubusercontent.com/krompaco/cms-rest-api-dotnet-client/refs/heads/main/docs/images/contenttypes-json.png)
 
 The CLI currently supports these commands:
 
@@ -79,6 +79,10 @@ upsert <all|propertygroups|contenttypes|displaytemplates>
 delete <propertygroups|contenttypes|displaytemplates> <KEY>
 ```
 
-Be careful and look through all files in your FolderToProcess before running any upsert command. The upserts is most likely what you want to run from a pipeline when deploying your head app.
+Be careful and look through all files in your FolderToProcess before running any upsert command.
 
-The commands list and delete are more manual and probably used for exploring and manually cleaning up your instance.
+The upserts is most likely what you want to run from a pipeline when deploying your head app. The `upsert contenttypes` and that part of `upsert all` will show a table as default, add `-j` to get syntax colored JSON output.
+
+![JSON of your types](https://raw.githubusercontent.com/krompaco/cms-rest-api-dotnet-client/refs/heads/main/docs/images/upsert-all.png)
+
+The commands list and delete are probably mostly used for exploring and manually cleaning up your instance.
