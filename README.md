@@ -49,7 +49,7 @@ Finally adjust the path for `PlainJsonFiles__FolderToProcess` to match a path on
 
 This folder is a sort of _Content Type Package_ and when you run the CLI's `upsert all` command it will create or replace definitions in the CMS instance.
 
-The included "SiteOne" is a very basic site with a few page and element types with display template (styles).
+The included "SiteOne" is a very basic site with a few page and element types with display templates (styles).
 
 ### Build and run the CLI locally
 
