@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Globalization;
 using System.Linq;
 using System.Text.Json;
@@ -37,14 +37,13 @@ public sealed class ListCommand : AsyncCommand<ListCommand.Settings>
 
         if (!validArguments.Contains(resourceType))
         {
-            AnsiConsole.MarkupLineInterpolated($"[bold red]Invalid argument, the valid ones are: {string.Join(", ", validArguments)}[/]");
+            AnsiConsole.MarkupLineInterpolated($"[red]Error:[/] Invalid argument, the valid ones are: {string.Join(", ", validArguments)}");
             return 0;
         }
 
         var accessToken = await this.tokenService.GetAccessToken(
             this.cmsInstanceOptions.ClientId,
             this.cmsInstanceOptions.ClientSecret);
-
 
         var result = await this.cmsService.List(resourceType, accessToken);
 

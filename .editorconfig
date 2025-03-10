@@ -7,6 +7,9 @@ indent_style = space
 insert_final_newline = true
 
 [*.cs]
+charset = utf-8-bom
+
+[*.cs]
 # Newline settings
 csharp_new_line_before_open_brace = all
 csharp_new_line_before_else = true

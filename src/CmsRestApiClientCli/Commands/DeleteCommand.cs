@@ -38,7 +38,7 @@ public sealed class DeleteCommand : AsyncCommand<DeleteCommand.Settings>
 
         if (!validArguments.Contains(resourceType))
         {
-            AnsiConsole.MarkupLineInterpolated($"[bold red]Invalid argument, the valid ones are: {string.Join(", ", validArguments)}[/]");
+            AnsiConsole.MarkupLineInterpolated($"[red]Error:[/] Invalid argument, the valid ones are: {string.Join(", ", validArguments)}");
             return 0;
         }
 

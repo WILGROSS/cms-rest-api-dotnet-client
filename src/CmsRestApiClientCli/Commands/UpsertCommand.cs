@@ -74,7 +74,7 @@ public sealed class UpsertCommand : AsyncCommand<UpsertCommand.Settings>
         }
         else
         {
-            AnsiConsole.MarkupLineInterpolated($"[bold red]Invalid argument, the valid ones are: all, propertygroups, contenttypes or displaytemplates[/]");
+            AnsiConsole.MarkupLineInterpolated($"[red]Error:[/] Invalid argument, the valid ones are: all, propertygroups, contenttypes or displaytemplates");
         }
 
         return 0;

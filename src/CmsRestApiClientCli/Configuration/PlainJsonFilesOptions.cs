@@ -1,4 +1,4 @@
-﻿namespace CmsRestApiClientCli.Configuration;
+namespace CmsRestApiClientCli.Configuration;
 
 public class PlainJsonFilesOptions
 {
