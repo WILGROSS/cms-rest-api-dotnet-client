@@ -1,0 +1,74 @@
+{
+    "key": "Person",
+    "displayName": "Person",
+    "description": "Holds details about a person.",
+    "baseType": "component",
+    "source": "",
+    "sortOrder": 55,
+    "features": [
+        "localization",
+        "versioning",
+        "publishPeriod"
+    ],
+    "usage": [
+        "property",
+        "instance"
+    ],
+    "mayContainTypes": [],
+    "mediaFileExtensions": [],
+    "compositionBehaviors": [
+        "sectionEnabled"
+    ],
+    "properties": {
+        "ImageReference": {
+            "type": "contentReference",
+            "displayName": "Image",
+            "description": "",
+            "localized": false,
+            "required": false,
+            "group": "Information",
+            "sortOrder": 10,
+            "editorSettings": {},
+            "allowedTypes": [
+                "Image"
+            ],
+            "restrictedTypes": []
+        },
+        "FullName": {
+            "type": "string",
+            "format": "shortString",
+            "displayName": "Full name",
+            "description": "",
+            "localized": true,
+            "required": false,
+            "group": "Information",
+            "sortOrder": 15,
+            "indexingType": "searchable",
+            "editorSettings": {}
+        },
+        "Title": {
+            "type": "string",
+            "format": "shortString",
+            "displayName": "Title",
+            "description": "",
+            "localized": true,
+            "required": false,
+            "group": "Information",
+            "sortOrder": 20,
+            "indexingType": "searchable",
+            "editorSettings": {}
+        },
+        "Telephone": {
+            "type": "string",
+            "format": "shortString",
+            "displayName": "Title",
+            "description": "",
+            "localized": true,
+            "required": false,
+            "group": "Information",
+            "sortOrder": 25,
+            "indexingType": "searchable",
+            "editorSettings": {}
+        }
+    }
+}
