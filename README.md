@@ -84,7 +84,7 @@ The CLI currently supports these commands:
 ```
 list <contenttypes|propertyformats|propertygroups|displaytemplates>
 upsert <all|propertygroups|contenttypes|displaytemplates>
-delete <propertygroups|contenttypes|displaytemplates> <KEY>
+delete <propertygroups|content|contenttypes|displaytemplates> <KEY>
 ```
 
 Be careful and look through all files in your FolderToProcess before running any upsert command. These will iterate JSON files in the `PlainJsonFiles__FolderToProcess` structure, use the name of the file as `key` and send a PUT request with the JSON file content as the request body.

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,7 +13,7 @@ namespace CmsRestApiClientCli.Commands;
 
 public sealed class DeleteCommand : AsyncCommand<DeleteCommand.Settings>
 {
-    private const string ResourceTypeArguments = "<propertygroups|contenttypes|displaytemplates>";
+    private const string ResourceTypeArguments = "<propertygroups|content|contenttypes|displaytemplates>";
 
     private readonly TokenService tokenService;
 
