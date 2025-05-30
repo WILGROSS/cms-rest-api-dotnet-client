@@ -1,0 +1,94 @@
+{
+   "key": "PressReleaseLink",
+   "displayName": "Press Release Link",
+   "description": "A block linking to a specific press release",
+   "baseType": "component",
+   "source": "",
+   "sortOrder": 0,
+   "features": [
+      "localization",
+      "versioning",
+      "publishPeriod"
+   ],
+   "usage": [
+      "property",
+      "instance"
+   ],
+   "mayContainTypes": [
+   ],
+   "mediaFileExtensions": [
+   ],
+   "compositionBehaviors": [
+      "elementEnabled"
+   ],
+   "created": "2025-05-15T10:48:41.5958646+00:00",
+   "lastModified": "2025-05-15T10:57:43.3494792+00:00",
+   "lastModifiedBy": "william.gross@tietoevry.com",
+   "properties": {
+      "PressReleaseType": {
+         "type": "string",
+         "format": "selectOne",
+         "displayName": "Press Release Type",
+         "description": "",
+         "localized": true,
+         "required": true,
+         "group": "Information",
+         "sortOrder": 0,
+         "editorSettings": {
+         },
+         "enum": {
+            "values": [
+               {
+                  "displayName": "Press release",
+                  "value": "Press-release"
+               },
+               {
+                  "displayName": "Press release (regulatory)",
+                  "value": "Press-release-(regulatory)"
+               }
+            ]
+         }
+      },
+      "DateTime": {
+         "type": "dateTime",
+         "displayName": "Date & Time",
+         "description": "Enter the date and time at which the press release was posted",
+         "localized": false,
+         "required": true,
+         "group": "Information",
+         "sortOrder": 100,
+         "editorSettings": {
+         }
+      },
+      "Title": {
+         "type": "string",
+         "format": "shortString",
+         "displayName": "Title",
+         "description": "The press release's title",
+         "localized": true,
+         "required": true,
+         "group": "Information",
+         "sortOrder": 200,
+         "editorSettings": {
+         }
+      },
+      "PressLink": {
+         "type": "array",
+         "format": "LinkCollection",
+         "displayName": "Link",
+         "description": "Link to the press release",
+         "localized": false,
+         "required": true,
+         "group": "Information",
+         "sortOrder": 300,
+         "editorSettings": {
+         },
+         "minItems": 1,
+         "maxItems": 1,
+         "items": {
+            "type": "component",
+            "contentType": "link"
+         }
+      }
+   }
+}

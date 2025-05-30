@@ -1,0 +1,46 @@
+{
+  "key": "Masonry",
+  "displayName": "Masonry",
+  "description": "Render images in a masonry grid.",
+  "baseType": "component",
+  "source": "",
+  "sortOrder": 0,
+  "features": [
+    "localization",
+    "versioning",
+    "publishPeriod"
+  ],
+  "usage": [
+    "property",
+    "instance"
+  ],
+  "mayContainTypes": [
+  ],
+  "mediaFileExtensions": [
+  ],
+  "compositionBehaviors": [
+    "elementEnabled"
+  ],
+  "created": "2025-04-22T13:09:27.1975726+00:00",
+  "lastModified": "2025-04-22T13:15:59.5583187+00:00",
+  "lastModifiedBy": "johan.kronberg@tietoevry.com",
+  "properties": {
+    "ImageLinks": {
+      "type": "array",
+      "format": "LinkCollection",
+      "displayName": "Images",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {
+      },
+      "minItems": 2,
+      "items": {
+        "type": "component",
+        "contentType": "link"
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+   "key": "LinkCard",
+   "displayName": "Link Card",
+   "description": "",
+   "baseType": "component",
+   "source": "",
+   "sortOrder": 0,
+   "features": [
+      "localization",
+      "versioning",
+      "publishPeriod"
+   ],
+   "usage": [
+      "property",
+      "instance"
+   ],
+   "mayContainTypes": [
+   ],
+   "mediaFileExtensions": [
+   ],
+   "compositionBehaviors": [
+      "elementEnabled"
+   ],
+   "created": "2025-05-16T13:18:45.2233281+00:00",
+   "lastModified": "2025-05-16T13:20:06.303942+00:00",
+   "lastModifiedBy": "william.gross@tietoevry.com",
+   "properties": {
+      "Title": {
+         "type": "string",
+         "format": "shortString",
+         "displayName": "Title",
+         "description": "",
+         "localized": false,
+         "required": true,
+         "group": "Information",
+         "sortOrder": 0,
+         "editorSettings": {
+         }
+      },
+      "BackgroundColor": {
+         "type": "string",
+         "format": "selectOne",
+         "displayName": "Background",
+         "description": "",
+         "localized": false,
+         "required": false,
+         "group": "Styling",
+         "sortOrder": 0,
+         "editorSettings": {
+         },
+         "enum": {
+            "values": [
+               {
+                  "displayName": "Gold",
+                  "value": "gold"
+               },
+               {
+                  "displayName": "Silver",
+                  "value": "silver"
+               }
+            ]
+         }
+      },
+      "Text": {
+         "type": "string",
+         "displayName": "Text",
+         "description": "",
+         "localized": false,
+         "required": true,
+         "group": "Information",
+         "sortOrder": 100,
+         "editorSettings": {
+         }
+      },
+      "DirectLink": {
+         "type": "url",
+         "displayName": "Link",
+         "description": "",
+         "localized": false,
+         "required": true,
+         "group": "Information",
+         "sortOrder": 200,
+         "editorSettings": {
+         }
+      },
+      "LinkText": {
+         "type": "string",
+         "format": "shortString",
+         "displayName": "Link Text",
+         "description": "",
+         "localized": false,
+         "required": true,
+         "group": "Information",
+         "sortOrder": 300,
+         "editorSettings": {
+         }
+      }
+   }
+}

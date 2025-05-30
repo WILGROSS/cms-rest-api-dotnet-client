@@ -1,0 +1,78 @@
+{
+   "key": "HeaderLinkContent",
+   "displayName": "Header Link Content",
+   "description": "",
+   "baseType": "component",
+   "source": "",
+   "sortOrder": 0,
+   "features": [
+      "localization",
+      "versioning",
+      "publishPeriod"
+   ],
+   "usage": [
+      "property",
+      "instance"
+   ],
+   "mayContainTypes": [
+   ],
+   "mediaFileExtensions": [
+   ],
+   "compositionBehaviors": [
+   ],
+   "created": "2025-05-07T11:58:19.3651293+00:00",
+   "lastModified": "2025-05-07T11:58:19.3651293+00:00",
+   "lastModifiedBy": "william.gross@tietoevry.com",
+   "properties": {
+      "Title": {
+         "type": "string",
+         "format": "shortString",
+         "displayName": "Title",
+         "description": "",
+         "localized": true,
+         "required": true,
+         "group": "Information",
+         "sortOrder": -200,
+         "editorSettings": {
+         }
+      },
+      "Paragraph": {
+         "type": "string",
+         "displayName": "Paragraph",
+         "description": "",
+         "localized": true,
+         "required": false,
+         "group": "Information",
+         "sortOrder": -150,
+         "editorSettings": {
+         }
+      },
+      "Link": {
+         "type": "url",
+         "displayName": "Link",
+         "description": "",
+         "localized": false,
+         "required": false,
+         "group": "Information",
+         "sortOrder": -100,
+         "editorSettings": {
+         }
+      },
+      "Image": {
+         "type": "contentReference",
+         "displayName": "Image",
+         "description": "",
+         "localized": false,
+         "required": false,
+         "group": "Information",
+         "sortOrder": 0,
+         "editorSettings": {
+         },
+         "allowedTypes": [
+            "ImageMedia"
+         ],
+         "restrictedTypes": [
+         ]
+      }
+   }
+}

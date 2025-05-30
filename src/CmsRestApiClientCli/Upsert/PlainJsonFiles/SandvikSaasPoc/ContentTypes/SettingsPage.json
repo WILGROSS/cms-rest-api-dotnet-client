@@ -1,0 +1,144 @@
+{
+    "key": "SettingsPage",
+    "displayName": "Settings Page",
+    "description": "Holds settings for the site.",
+    "baseType": "page",
+    "source": "",
+    "sortOrder": 0,
+    "features": [
+      "localization",
+      "versioning",
+      "publishPeriod",
+      "routing"
+   ],
+   "usage": [
+      "instance"
+   ],
+   "mayContainTypes": [
+      "*"
+   ],
+   "mediaFileExtensions": [
+   ],
+   "compositionBehaviors": [
+   ],
+   "created": "2025-05-06T08:26:52.2308678+00:00",
+   "lastModified": "2025-05-06T10:17:11.1192297+00:00",
+   "lastModifiedBy": "bd769935bf42472a8da5dbe872d666b5",
+   "properties": {
+      "LogoImage": {
+         "type": "contentReference",
+         "displayName": "Logo Image",
+         "description": "",
+         "localized": false,
+         "required": false,
+         "group": "Header",
+         "sortOrder": 0,
+         "editorSettings": {
+         },
+         "allowedTypes": [
+            "ImageMedia"
+         ],
+         "restrictedTypes": [
+         ]
+      },
+      "NavigationGroups": {
+         "type": "array",
+         "displayName": "Navigation Groups",
+         "description": "",
+         "localized": false,
+         "required": true,
+         "group": "Header",
+         "sortOrder": 0,
+         "editorSettings": {
+         },
+         "minItems": 1,
+         "items": {
+            "type": "content",
+            "allowedTypes": [
+               "HeaderLinkGroup"
+            ],
+            "restrictedTypes": [
+            ]
+         }
+      },
+      "HeaderComplementaryLink": {
+         "type": "url",
+         "displayName": "Header Complementary Link",
+         "description": "",
+         "localized": false,
+         "required": false,
+         "group": "Header",
+         "sortOrder": 0,
+         "editorSettings": {
+         }
+      },
+      "HeaderComplementaryLinkLabel": {
+         "type": "string",
+         "format": "shortString",
+         "displayName": "Header Complementary Link Label",
+         "description": "",
+         "localized": false,
+         "required": false,
+         "group": "Header",
+         "sortOrder": 0,
+         "editorSettings": {
+         }
+      },
+      "ComplementaryNavigationLinks": {
+         "type": "array",
+         "format": "LinkCollection",
+         "displayName": "Footer complementary navigation",
+         "description": "",
+         "localized": true,
+         "required": false,
+         "group": "Footer",
+         "sortOrder": 20,
+         "editorSettings": {
+         },
+         "minItems": 0,
+         "items": {
+            "type": "component",
+            "contentType": "link"
+         }
+      },
+      "ComplementaryNavigationLabel1": {
+         "type": "string",
+         "format": "shortString",
+         "displayName": "Complementary column 1 label",
+         "description": "",
+         "localized": true,
+         "required": false,
+         "group": "Footer",
+         "sortOrder": 22,
+         "indexingType": "searchable",
+         "editorSettings": {
+         }
+      },
+      "ComplementaryNavigationLabel2": {
+         "type": "string",
+         "format": "shortString",
+         "displayName": "Complementary column 2 label",
+         "description": "",
+         "localized": true,
+         "required": false,
+         "group": "Footer",
+         "sortOrder": 24,
+         "indexingType": "searchable",
+         "editorSettings": {
+         }
+      },
+      "ComplementaryNavigationLabel3": {
+         "type": "string",
+         "format": "shortString",
+         "displayName": "Complementary column 3 label",
+         "description": "",
+         "localized": true,
+         "required": false,
+         "group": "Footer",
+         "sortOrder": 26,
+         "indexingType": "searchable",
+         "editorSettings": {
+         }
+      }
+   }
+}

@@ -1,0 +1,35 @@
+{
+  "displayName": "Heading 2",
+  "description": "Add a H2 element.",
+  "baseType": "component",
+  "sortOrder": 11,
+  "features": [
+    "localization",
+    "versioning",
+    "publishPeriod"
+  ],
+  "usage": [
+    "property",
+    "instance"
+  ],
+  "mayContainTypes": [
+  ],
+  "mediaFileExtensions": [
+  ],
+  "compositionBehaviors": [
+    "elementEnabled"
+  ],
+  "properties": {
+    "Heading": {
+      "type": "string",
+      "format": "shortString",
+      "displayName": "Heading",
+      "description": "",
+      "localized": true,
+      "required": true,
+      "group": "Information",
+      "sortOrder": 0,
+      "indexingType": "searchable"
+    }
+  }
+}

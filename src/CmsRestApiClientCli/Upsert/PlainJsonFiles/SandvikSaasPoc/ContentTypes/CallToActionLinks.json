@@ -1,0 +1,262 @@
+{
+   "key": "CallToActionLinks",
+   "displayName": "CTALinks",
+   "description": "Links with nicer styling.",
+   "baseType": "component",
+   "source": "",
+   "sortOrder": 0,
+   "features": [
+      "localization",
+      "versioning",
+      "publishPeriod"
+   ],
+   "usage": [
+      "property",
+      "instance"
+   ],
+   "mayContainTypes": [
+   ],
+   "mediaFileExtensions": [
+   ],
+   "compositionBehaviors": [
+      "elementEnabled"
+   ],
+   "created": "2025-05-13T09:29:40.0080468+00:00",
+   "lastModified": "2025-05-14T13:40:55.9213706+00:00",
+   "lastModifiedBy": "william.gross@tietoevry.com",
+   "properties": {
+      "Links": {
+         "type": "array",
+         "format": "LinkCollection",
+         "displayName": "Links",
+         "description": "",
+         "localized": true,
+         "required": false,
+         "group": "Information",
+         "sortOrder": 0,
+         "editorSettings": {
+         },
+         "minItems": 1,
+         "maxItems": 6,
+         "items": {
+            "type": "component",
+            "contentType": "link"
+         }
+      },
+      "ButtonPrimary": {
+         "type": "array",
+         "format": "selectMany",
+         "displayName": "Primary Button",
+         "description": "",
+         "localized": false,
+         "required": false,
+         "group": "Styling",
+         "sortOrder": 100,
+         "editorSettings": {
+         },
+         "items": {
+            "type": "string",
+            "enum": {
+               "values": [
+                  {
+                     "displayName": "Link 01",
+                     "value": "link01"
+                  },
+                  {
+                     "displayName": "Link 02",
+                     "value": "link02"
+                  },
+                  {
+                     "displayName": "Link 03",
+                     "value": "link03"
+                  },
+                  {
+                     "displayName": "Link 04",
+                     "value": "link04"
+                  },
+                  {
+                     "displayName": "Link 05",
+                     "value": "link05"
+                  },
+                  {
+                     "displayName": "Link 06",
+                     "value": "link06"
+                  }
+               ]
+            }
+         }
+      },
+      "ButtonDark": {
+         "type": "array",
+         "format": "selectMany",
+         "displayName": "Dark Button",
+         "description": "",
+         "localized": false,
+         "required": false,
+         "group": "Styling",
+         "sortOrder": 200,
+         "editorSettings": {
+         },
+         "items": {
+            "type": "string",
+            "enum": {
+               "values": [
+                  {
+                     "displayName": "Link 01",
+                     "value": "link01"
+                  },
+                  {
+                     "displayName": "Link 02",
+                     "value": "link02"
+                  },
+                  {
+                     "displayName": "Link 03",
+                     "value": "link03"
+                  },
+                  {
+                     "displayName": "Link 04",
+                     "value": "link04"
+                  },
+                  {
+                     "displayName": "Link 05",
+                     "value": "link05"
+                  },
+                  {
+                     "displayName": "Link 06",
+                     "value": "link06"
+                  }
+               ]
+            }
+         }
+      },
+      "IconDownload": {
+         "type": "array",
+         "format": "selectMany",
+         "displayName": "Download Icon",
+         "description": "",
+         "localized": false,
+         "required": false,
+         "group": "Styling",
+         "sortOrder": 300,
+         "editorSettings": {
+         },
+         "items": {
+            "type": "string",
+            "enum": {
+               "values": [
+                  {
+                     "displayName": "Link 01",
+                     "value": "link01"
+                  },
+                  {
+                     "displayName": "Link 02",
+                     "value": "link02"
+                  },
+                  {
+                     "displayName": "Link 03",
+                     "value": "link03"
+                  },
+                  {
+                     "displayName": "Link 04",
+                     "value": "link04"
+                  },
+                  {
+                     "displayName": "Link 05",
+                     "value": "link05"
+                  },
+                  {
+                     "displayName": "Link 06",
+                     "value": "link06"
+                  }
+               ]
+            }
+         }
+      },
+      "IconArrow": {
+         "type": "array",
+         "format": "selectMany",
+         "displayName": "Arrow Icon",
+         "description": "",
+         "localized": false,
+         "required": false,
+         "group": "Styling",
+         "sortOrder": 400,
+         "editorSettings": {
+         },
+         "items": {
+            "type": "string",
+            "enum": {
+               "values": [
+                  {
+                     "displayName": "Link 01",
+                     "value": "link01"
+                  },
+                  {
+                     "displayName": "Link 02",
+                     "value": "link02"
+                  },
+                  {
+                     "displayName": "Link 03",
+                     "value": "link03"
+                  },
+                  {
+                     "displayName": "Link 04",
+                     "value": "link04"
+                  },
+                  {
+                     "displayName": "Link 05",
+                     "value": "link05"
+                  },
+                  {
+                     "displayName": "Link 06",
+                     "value": "link06"
+                  }
+               ]
+            }
+         }
+      },
+      "IconChevronRight": {
+         "type": "array",
+         "format": "selectMany",
+         "displayName": "Chevron Right Icon",
+         "description": "",
+         "localized": false,
+         "required": false,
+         "group": "Styling",
+         "sortOrder": 500,
+         "editorSettings": {
+         },
+         "items": {
+            "type": "string",
+            "enum": {
+               "values": [
+                  {
+                     "displayName": "Link 01",
+                     "value": "link01"
+                  },
+                  {
+                     "displayName": "Link 02",
+                     "value": "link02"
+                  },
+                  {
+                     "displayName": "Link 03",
+                     "value": "link03"
+                  },
+                  {
+                     "displayName": "Link 04",
+                     "value": "link04"
+                  },
+                  {
+                     "displayName": "Link 05",
+                     "value": "link05"
+                  },
+                  {
+                     "displayName": "Link 06",
+                     "value": "link 06"
+                  }
+               ]
+            }
+         }
+      }
+   }
+}

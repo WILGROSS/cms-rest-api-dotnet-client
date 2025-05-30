@@ -1,0 +1,30 @@
+{
+  "displayName": "Default Section",
+  "baseType": "section",
+  "isDefault": true,
+  "settings": {
+    "Design": {
+      "displayName": "Design",
+      "editor": "select",
+      "sortOrder": 10,
+      "choices": {
+        "default": {
+          "displayName": "Default",
+          "sortOrder": 10
+        },
+        "design01": {
+          "displayName": "Unstyled",
+          "sortOrder": 20
+        },
+        "design02": {
+          "displayName": "Full Width",
+          "sortOrder": 20
+        },
+        "design03": {
+          "displayName": "Dark",
+          "sortOrder": 30
+        }
+      }
+    }
+  }
+}

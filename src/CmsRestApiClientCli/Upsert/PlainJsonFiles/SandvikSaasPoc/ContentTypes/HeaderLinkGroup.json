@@ -1,0 +1,81 @@
+{
+   "key": "HeaderLinkGroup",
+   "displayName": "Header Link Group",
+   "description": "",
+   "baseType": "component",
+   "source": "",
+   "sortOrder": 0,
+   "features": [
+      "localization",
+      "versioning",
+      "publishPeriod"
+   ],
+   "usage": [
+      "property",
+      "instance"
+   ],
+   "mayContainTypes": [
+   ],
+   "mediaFileExtensions": [
+   ],
+   "compositionBehaviors": [
+   ],
+   "created": "2025-05-07T11:24:52.850241+00:00",
+   "lastModified": "2025-05-07T11:24:52.850241+00:00",
+   "lastModifiedBy": "william.gross@tietoevry.com",
+   "properties": {
+      "Title": {
+         "type": "string",
+         "format": "shortString",
+         "displayName": "Title",
+         "description": "",
+         "localized": false,
+         "required": true,
+         "group": "Information",
+         "sortOrder": 0,
+         "editorSettings": {
+         }
+      },
+      "RuleLeft": {
+         "type": "boolean",
+         "displayName": "RuleLeft",
+         "description": "",
+         "localized": false,
+         "required": false,
+         "group": "Advanced",
+         "sortOrder": 0,
+         "editorSettings": {
+         }
+      },
+      "Mainlink": {
+         "type": "url",
+         "displayName": "Main Link",
+         "description": "",
+         "localized": false,
+         "required": false,
+         "group": "Information",
+         "sortOrder": 0,
+         "editorSettings": {
+         }
+      },
+      "Links": {
+         "type": "array",
+         "displayName": "Links",
+         "description": "",
+         "localized": false,
+         "required": false,
+         "group": "Information",
+         "sortOrder": 100,
+         "editorSettings": {
+         },
+         "items": {
+            "type": "content",
+            "allowedTypes": [
+               "HeaderLinkContent"
+            ],
+            "restrictedTypes": [
+            ]
+         }
+      }
+   }
+}

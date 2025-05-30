@@ -1,0 +1,66 @@
+{
+   "key": "Prose",
+   "displayName": "Prose",
+   "description": "For chunks of rich text.",
+   "baseType": "component",
+   "source": "",
+   "sortOrder": 30,
+   "features": [
+      "localization",
+      "versioning",
+      "publishPeriod"
+   ],
+   "usage": [
+      "property",
+      "instance"
+   ],
+   "mayContainTypes": [
+   ],
+   "mediaFileExtensions": [
+   ],
+   "compositionBehaviors": [
+      "elementEnabled"
+   ],
+   "created": "2025-05-06T10:17:10.8844361+00:00",
+   "lastModified": "2025-05-06T10:17:10.8844361+00:00",
+   "lastModifiedBy": "bd769935bf42472a8da5dbe872d666b5",
+   "properties": {
+      "Body": {
+         "type": "string",
+         "format": "html",
+         "displayName": "Body",
+         "description": "",
+         "localized": true,
+         "required": true,
+         "group": "Information",
+         "sortOrder": 0,
+         "indexingType": "searchable",
+         "editorSettings": {
+         }
+      },
+      "TextColor": {
+         "type": "string",
+         "format": "selectOne",
+         "displayName": "Text Color",
+         "description": "Select the text color to make it visible on light/dark backgrounds.",
+         "localized": false,
+         "required": true,
+         "group": "Information",
+         "sortOrder": 100,
+         "editorSettings": {
+         },
+         "enum": {
+            "values": [
+               {
+                  "displayName": "Dark",
+                  "value": "dark"
+               },
+               {
+                  "displayName": "Light",
+                  "value": "light"
+               }
+            ]
+         }
+      }
+   }
+}

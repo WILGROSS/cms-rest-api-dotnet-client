@@ -1,0 +1,57 @@
+{
+   "key": "FullWidthImage",
+   "displayName": "Full Width Image",
+   "description": "Image that takes up the entire width of the screen",
+   "baseType": "component",
+   "source": "",
+   "sortOrder": 0,
+   "features": [
+      "localization",
+      "versioning",
+      "publishPeriod"
+   ],
+   "usage": [
+      "property",
+      "instance"
+   ],
+   "mayContainTypes": [
+   ],
+   "mediaFileExtensions": [
+   ],
+   "compositionBehaviors": [
+      "elementEnabled"
+   ],
+   "created": "2025-05-13T11:44:53.5096163+00:00",
+   "lastModified": "2025-05-13T11:53:02.4163962+00:00",
+   "lastModifiedBy": "william.gross@tietoevry.com",
+   "properties": {
+      "ImageReference": {
+         "type": "contentReference",
+         "displayName": "Image Reference",
+         "description": "",
+         "localized": false,
+         "required": true,
+         "group": "Information",
+         "sortOrder": 0,
+         "editorSettings": {
+         },
+         "allowedTypes": [
+            "ImageMedia"
+         ],
+         "restrictedTypes": [
+         ]
+      },
+      "AlternativeText": {
+         "type": "string",
+         "format": "shortString",
+         "displayName": "Alternative Text",
+         "description": "",
+         "localized": false,
+         "required": true,
+         "group": "Information",
+         "sortOrder": 100,
+         "editorSettings": {
+         }
+      }
+   }
+}
